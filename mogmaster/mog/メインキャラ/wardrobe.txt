@@ -1,0 +1,70 @@
+エピオラトリー@Path: A
+ザルフィカール@Attack+7/MND+1/Phalanx +5
+ペオードクレイモア@Path: C
+ゲイルレズ
+シャイニングワン
+童子切安綱@Path: A
+グリオアヴァール@Blood Pact Dmg.+5/Pet: INT+15/Pet: Mag. Acc.+14/Pet: Mag.Atk.Bns.+25
+グリダーヴォル@Pet: Accuracy+70/Pet: Attack+70/Pet: Dbl. Atk.+15
+プライムスタッフ
+ムサ@Path: C
+ウトゥグリップ
+エランストラップ+1
+コーンスー
+バララマグリップ
+アクロンティカ@Path: A
+クレパスクラナイフ
+スキンフレア@Cure potency +1%/Attack+24/Phalanx +3/DMG:+12
+スキンフレア@Avatar perpetuation cost -2/Accuracy+28/Phalanx +3/DMG:+12
+トーレット
+プライムダガー
+レヴァンテダガー
+ロスタム@Path: C
+ロスタム@Path: B
+フセット+2
+クトゥルブナイフ
+幽世の短剣
+カリブルヌス
+クロセアモース@Path: C
+サクパタソード@Path: A
+ティソーナ@Path: A
+ネイグリング
+ブルトガング@Path: A
+ガーダ@Fast Cast+5/Mag. Acc.+14/Mag.Atk.Bns.+14/DMG:+17
+シャルウル@Evasion+15/Phys. dmg. taken -4%/AGI+17
+シャルウル@Evasion+15/Phys. dmg. taken -4%/AGI+17
+デイブレイクワンド
+ブンジロッド@Path: A
+マクセンチアス
+ルビカンディティー@Mag. Acc.+5/Mag.Atk.Bns.+3/Dark magic skill +8
+デジョンカジェル
+ハーミットワンド
+コンペンセーター@DMG:+15/Rng.Atk.+15/Mag.Atk.Bns.+15
+デスペナルティ@Path: A
+フォーマルハウト@Path: A
+プライムガン
+アナーキー+2@Delay:+60/TP Bonus +1000
+ラミアベーン
+アマークラスター
+イェットシーラ
+エピタフサシェ@Path: A
+ガストリタスラム+1@Path: A
+クォーツタスラム+1
+コイストボダー
+サピエンスオーブ
+ストンチタスラム+1
+スローダタスラム
+ノブキエリ
+ペムフレドタスラム
+ホミリアリ
+ヤメラング
+王将の玉
+カリスフェザー
+アムラピシールド
+イージス
+カルミナス
+チャンターシールド
+ドゥバン
+ヌスクシールド
+プリュウェン
+玄冥盾

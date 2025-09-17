@@ -1,0 +1,53 @@
+オディシアヘルム@Dbl.Atk.+3/Mag.Atk.Bns.+3/Phalanx +5
+サクパタヘルム
+ニャメヘルム@Path: B
+ヘルクリアヘルム@Mag.Atk.Bns.+9/Fast Cast+6/Mag. Acc.+9
+ヘルクリアヘルム@Pet: Mag. Acc.+24/VIT+9/Treasure Hunter+2
+ヘルクリアヘルム@Weapon skill damage +2%/AGI+6/Refresh+2/Accuracy+9 Attack+9
+ヘルクリアヘルム@Accuracy+11/STR+4/Phalanx +4/Accuracy+6 Attack+6/Mag. Acc.+16 Mag.Atk.Bns.+16
+マーリンフード@STR+5/Accuracy+6/Refresh+2/Accuracy+10 Attack+10
+マーリンフード@Mag.Atk.Bns.+24/Fast Cast+7/Mag. Acc.+1
+ムパカキャップ@Path: A
+アグゥローブ@Path: A
+オディシアプレート@VIT+8/Attack+1/Phalanx +5
+グレティキュイラス
+サクパタブレスト
+ニャメメイル@Path: B
+ヘルクリアベスト@STR+10/Pet: STR+9/Phalanx +5/Mag. Acc.+3 Mag.Atk.Bns.+3
+マーリンジュバ@Fast Cast+7/CHR+5/Mag.Atk.Bns.+15
+アグゥゲージ@Path: A
+グレティガントレ
+サクパタガントレ
+ニャメガントレ@Path: B
+ヘルクリアグローブ@Magic Damage +1/Crit. hit damage +3%/Phalanx +4/Accuracy+10 Attack+10/Mag. Acc.+20 Mag.Atk.Bns.+20
+ヘルクリアグローブ@Spell interruption rate down -6%/Attack+5/Refresh+2/Accuracy+8 Attack+8
+ヘルクリアグローブ@Accuracy+6 Attack+6/Weapon skill damage +1%/Treasure Hunter+2
+マーリンダスタナ@Accuracy+14/Fast Cast+5/MND+9/Mag.Atk.Bns.+13
+マーリンダスタナ@Pet: Mag.Atk.Bns.+24/Blood Pact Dmg.+10/Pet: Mag. Acc.+9
+マーリンダスタナ@Attack+4/CHR+2/Refresh+2
+ムパカグローブ@Path: A
+オディシアクウィス@Fast Cast+6/AGI+9/Mag. Acc.+2
+カイロンホーズ@Mag. Acc.+25 Mag.Atk.Bns.+25/Fast Cast+1/MND+14/Mag. Acc.+9
+カイロンホーズ@Mag. Acc.+23 Mag.Atk.Bns.+23/Enmity-1/INT+7/Mag. Acc.+14
+グレティブリーチズ
+サクパタクウィス
+ニャメフランチャ@Path: B
+ヘルクリアトラウザ@Pet: VIT+10/Subtle Blow+10/Refresh+2/Accuracy+8 Attack+8
+ヘルクリアトラウザ@AGI+8/Attack+7/Phalanx +4/Accuracy+1 Attack+1/Mag. Acc.+2 Mag.Atk.Bns.+2
+ヘルクリアトラウザ@Mag. Acc.+16/Fast Cast+6/STR+10
+マーリンシャルワ@CHR+11/Cure potency +2%/Refresh+2/Accuracy+16 Attack+16/Mag. Acc.+19 Mag.Atk.Bns.+19
+マーリンシャルワ@Fast Cast+6
+オディシアグリーヴ@Drain and Aspir potency +10/Pet: Mag. Acc.+21/Accuracy+5 Attack+5
+オディシアグリーヴ@Mag. Acc.+1 Mag.Atk.Bns.+1/Fast Cast+6/VIT+2/Mag. Acc.+2/Mag.Atk.Bns.+13
+グレティブーツ
+サクパタレギンス
+ニャメソルレット@Path: B
+ブンジサボ
+ヘルクリアブーツ@Weapon skill damage +2%/Fast Cast+3/Phalanx +5/Accuracy+16 Attack+16
+ヘルクリアブーツ@Fast Cast+6/MND+2/Mag. Acc.+2
+ヘルクリアブーツ@Mag.Atk.Bns.+17/STR+9/Refresh+2
+ヘルクリアブーツ@Triple Atk.+2/AGI+9/Quadruple Attack +2/Accuracy+11 Attack+11/Mag. Acc.+19 Mag.Atk.Bns.+19
+マーリンクラッコー@CHR+12/Accuracy+5/Refresh+2
+マーリンクラッコー@Mag. Acc.+30/Drain and Aspir potency +11/INT+5/Mag.Atk.Bns.+2
+マーリンクラッコー@Fast Cast+7/MND+5
+ムパカブーツ

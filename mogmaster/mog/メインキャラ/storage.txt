@@ -1,0 +1,28 @@
+アグゥキャップ@Path: A
+イケンガハット
+イケンガベスト
+ムパカダブレット
+イケンガグローブ
+アグゥスロップス@Path: A
+イケンガトラウザ
+ムパカホーズ
+アグゥピガッシュ@Path: A
+イケンガクロッグ
+アンコウマント@DEX+20/Accuracy+20 Attack+20/Store TP+10/Phys. dmg. taken-10%
+カムラスマント@AGI+20/Rng.Acc.+20 Rng.Atk.+20/AGI+10/Crit.hit rate+10
+カムラスマント@DEX+20/Accuracy+20 Attack+20/DEX+10/Store TP+10/Phys. dmg. taken-10%
+スセロスケープ@INT+20/Mag. Acc+20 /Mag. Dmg.+20/INT+10
+スセロスケープ@MND+20/Mag. Acc+20 /Mag. Dmg.+20/MND+10
+スセロスケープ@DEX+20/Accuracy+20 Attack+20/Dbl.Atk.+10/Phys. dmg. taken-10%
+スメルトリオマント@DEX+20/Accuracy+20 Attack+20/Store TP+10/Phys. dmg. taken-10%
+セヌーナマント@DEX+20/Accuracy+20 Attack+20/DEX+10/Store TP+10/Phys. dmg. taken-10%
+ブリガンチアマント@DEX+20/Accuracy+20 Attack+20/DEX+10/Dbl.Atk.+10/Phys. dmg. taken-10%
+ロスメルタケープ@DEX+20/Accuracy+20 Attack+20/DEX+10/Dbl.Atk.+10/Phys. dmg. taken-10%
+ロスメルタケープ@AGI+20/Eva.+20 /Mag. Eva.+20/Evasion+10/Evasion+15
+バーカロルピアス
+フォレスティピアス
+エンドースリング
+ラジャスリング
+アーテフィサリング
+クラフマスタリング
+リンクパール

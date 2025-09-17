@@ -1,0 +1,44 @@
+アバテルピアス+1@System: 1 ID: 1676 Val: 0/Mag. Acc.+12/Enmity-2
+アンドアーピアス
+インフューズピアス
+エアバニピアス
+エテオレートピアス
+エリラズピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+12/Mag. Acc.+12/Damage taken-4%
+エンチャンピアス+1
+エーベルピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+15/Mag. Acc.+15/Damage taken-5%
+オドルピアス
+オノワイヤリング+1@Path: A
+クリプティクピアス
+シェリダピアス
+シェレピアス
+シバリエピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+15/Mag. Acc.+15/Damage taken-5%
+シャスーピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+15/Mag. Acc.+15/Crit.hit rate+5
+スノトラピアス
+スラッドピアス
+スローダピアス
+ズワゾピアス+1@Path: A
+テロスピアス
+ディグニタリピアス
+トゥイストピアス
+ハシシンピアス+2@System: 1 ID: 1676 Val: 0/Accuracy+20/Mag. Acc.+20/Dbl.Atk.+8/STR+15 INT+15
+パルーグピアス
+フリオミシピアス
+ベコナーピアス+1@System: 1 ID: 1676 Val: 0/Pet: Accuracy+15 Pet: Rng. Acc.+15/Pet: Mag. Acc.+15/Damage taken-5%
+ペルタスピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+12/Mag. Acc.+12/Crit.hit rate+4
+マクレレピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+13/Mag. Acc.+13/Store TP+4
+マリグナスピアス
+マーケピアス+1
+ミミルピアス
+メンデカントピアス
+ルガルバンダピアス
+レサジーピアス+1@System: 1 ID: 1676 Val: 0/Accuracy+11/Mag. Acc.+11/Dbl.Atk.+3
+ロードルピアス
+昏黄の耳飾り
+無知の耳
+王将の耳飾り
+真春日耳飾り@System: 1 ID: 1676 Val: 0/Accuracy+19/Mag. Acc.+19/Weapon skill damage +4%/STR+13 DEX+13
+ハーティーピアス
+アースクライピアス
+胡蝶のイヤリング@Accuracy+4/TP Bonus +250
+磁界の耳
+素破の耳
