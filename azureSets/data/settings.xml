@@ -1,0 +1,127 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <setmode>PreserveTraits</setmode>
+        <setspeed>0.65</setspeed>
+        <spellsets>
+            <Ambus>
+                <slot01>重い一撃</slot01>
+                <slot02>偃月刃</slot02>
+                <slot03>デルタスラスト</slot03>
+                <slot04>アンビルライトニング</slot04>
+                <slot05>サイレントストーム</slot05>
+                <slot06>マジックフルーツ</slot06>
+                <slot07>t.アップヒーヴ</slot07>
+                <slot08>夢想花</slot08>
+                <slot09>s.ドライバー</slot09>
+                <slot10>エラチックフラッター</slot10>
+                <slot11>エンプティスラッシュ</slot11>
+                <slot12>サブダックション</slot12>
+                <slot13>エントゥーム</slot13>
+                <slot14>オカルテーション</slot14>
+                <slot15>スペクトラルフロー</slot15>
+                <slot16>マジックハンマー</slot16>
+                <slot17>レテナグレア</slot17>
+            </Ambus>
+            <ambus>
+                <slot01>エラチックフラッター</slot01>
+                <slot02>偃月刃</slot02>
+                <slot03>デルタスラスト</slot03>
+                <slot04>r.デルージュ</slot04>
+                <slot06>夢想花</slot06>
+                <slot08>オカルテーション</slot08>
+                <slot09>t.アッサルト</slot09>
+                <slot10>重い一撃</slot10>
+                <slot11>アクリッドストリーム</slot11>
+                <slot12>サドンランジ</slot12>
+                <slot13>ファンタッド</slot13>
+                <slot14>n.メディテイト</slot14>
+                <slot15>ディフュージョンレイ</slot15>
+                <slot16>アンビルライトニング</slot16>
+                <slot17>マジックフルーツ</slot17>
+                <slot18>シアリングテンペスト</slot18>
+                <slot19>テネブラルクラッシュ</slot19>
+            </ambus>
+            <default>
+
+            </default>
+            <default1>
+                <slot01 />
+                <slot02 />
+                <slot03 />
+                <slot04 />
+                <slot05 />
+                <slot06 />
+                <slot07 />
+                <slot08 />
+                <slot09 />
+                <slot10 />
+            </default1>
+            <default2>
+                <slot01 />
+                <slot02 />
+                <slot03 />
+                <slot04 />
+                <slot05 />
+                <slot06 />
+                <slot07 />
+                <slot08 />
+                <slot09 />
+                <slot10 />
+            </default2>
+            <magic>
+                <slot01>エラチックフラッター</slot01>
+                <slot02>偃月刃</slot02>
+                <slot03>デルタスラスト</slot03>
+                <slot04>エントゥーム</slot04>
+                <slot05>サブダックション</slot05>
+                <slot06>夢想花</slot06>
+                <slot07>マジックハンマー</slot07>
+                <slot08>オカルテーション</slot08>
+                <slot09>テネブラルクラッシュ</slot09>
+                <slot10>重い一撃</slot10>
+                <slot11>エンプティスラッシュ</slot11>
+                <slot13>スペクトラルフロー</slot13>
+                <slot14>マジックフルーツ</slot14>
+                <slot15>s.ドライバー</slot15>
+                <slot16>レテナグレア</slot16>
+                <slot17>t.アップヒーヴ</slot17>
+                <slot18>アンビルライトニング</slot18>
+            </magic>
+            <physical>
+                <slot01>エラチックフラッター</slot01>
+                <slot02>偃月刃</slot02>
+                <slot03>デルタスラスト</slot03>
+                <slot04>エントゥーム</slot04>
+                <slot06>夢想花</slot06>
+                <slot08>オカルテーション</slot08>
+                <slot09>t.アッサルト</slot09>
+                <slot10>重い一撃</slot10>
+                <slot11>アクリッドストリーム</slot11>
+                <slot12>サドンランジ</slot12>
+                <slot13>ファンタッド</slot13>
+                <slot14>n.メディテイト</slot14>
+                <slot15>ディフュージョンレイ</slot15>
+                <slot16>アンビルライトニング</slot16>
+                <slot17>マジックフルーツ</slot17>
+                <slot18>シアリングテンペスト</slot18>
+                <slot19>テネブラルクラッシュ</slot19>
+            </physical>
+            <sub>
+                <slot01>スティンキングガス</slot01>
+                <slot02>フライトフルロア</slot02>
+                <slot03>磁鉄粉</slot03>
+                <slot04>メタルボディ</slot04>
+                <slot05>コクーン</slot05>
+                <slot06>カースドスフィア</slot06>
+                <slot07>シープソング</slot07>
+                <slot08>ブランクゲイズ</slot08>
+                <slot09>ジェタチュラ</slot09>
+                <slot10>ガイストウォール</slot10>
+                <slot11>種まき</slot11>
+                <slot12>サペリフィック</slot12>
+                <slot13>アイスブレイク</slot13>
+            </sub>
+        </spellsets>
+    </global>
+</settings>
