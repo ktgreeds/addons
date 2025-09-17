@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=10"/>
+	<HTA:APPLICATION
+		ID="Hta"
+		APPLICATIONNAME="AhWindow"
+		BORDER="thick"
+		BORDERSTYLE="normal"
+		CAPTION="yes"
+		CONTEXTMENU="yes"
+		INNERBORDER="yes"
+		MAXIMIZEBUTTON="no"
+		MINIMIZEBUTTON="yes"
+		NAVIGABLE="no"
+		SCROLL="no"
+		SCROLLFLAT="no"
+		SELECTION="no"
+		SHOWINTASKBAR="yes"
+		SINGLEINSTANCE="no"
+		SYSMENU="yes"
+		VERSION="0.0.1"
+		WINDOWSTATE="normal"
+	/>
+	
+	<title>Mog Editor</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		.ui-selecting,
+		.ui-selected {
+			background: #888; color: white;
+		}
+		.list-group {
+			min-height: 20px;
+		}
+		.panel {
+			margin: 0;
+		}
+		.list-group-item {
+			font-size: 12px;
+		}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="text-center">
+		ファイルエディタ
+		<div>
+			<button id ="save" class="btn btn-primary">
+				保存する
+			</button>
+			<button id ="reload" class="btn btn-default">
+				再読み込み
+			</button>
+		</div>
+	</div>
+	<div class="panels-area"></div>
+</div>
+
+<div class="hide">
+	<div class="panel-template">
+		<div class="col-md-1" style="padding: 2px;">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">test</div>
+				</div>
+				<div class="panel-body">
+					<ul class="list-group">
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+	var fso = new ActiveXObject("Scripting.FileSystemObject");
+	var currentDir = fso.GetParentFolderName(location.href).substr(8).replace(/\//g, '\\');
+	
+	var init = function() {
+		
+		// テキストファイル内容のパネルを描画する
+		var files = new Enumerator(fso.GetFolder(currentDir).files);
+		for (var i = 0; !files.atEnd(); files.moveNext()) {
+			var fileName = files.item() + '';
+			if (fileName.match(/.txt$/)) {
+				drawPanel(fileName, i);
+				i++;
+			}
+		}
+		if (i === 0) {
+			alert('エディタと同じフォルダにtxtファイルが見つかりません');
+			window.close();
+			return;
+		}
+		
+		// 選択可能にする
+		$('.list-group').selectable({
+			cancel: '.ui-selected',
+			start: function(e, ui) {
+				$('.ui-selected').removeClass('ui-selected');
+			}
+		});
+		
+		// 並び替え可能にする
+		$('.list-group').sortable({
+			connectWith: '.list-group',
+			helper: function (e, $item) {
+			
+				var $elements = $item.parent().children('.ui-selected').clone();
+				
+				$item.data('multidrag', $item.siblings('.ui-selected'));
+				$item.siblings('.ui-selected').addClass('dragged').hide();
+				
+				return $('<div>').append($elements);
+		    },
+		    
+			stop: function (e, info) {
+				info.item.after(info.item.data('multidrag').show());
+			}
+
+		}).disableSelection();
+		
+		// 「保存する」ボタン
+		$('#save').on('click', function() {
+			saveTexts();
+		});
+		$('#reload').on('click', function() {
+			location.reload();
+		});
+		
+	}
+	
+	// パネルを作成して描画する
+	var drawPanel = function(fileName, counter) {
+	
+		$panelsArea = $('.panels-area');
+		if (counter % 12 === 0) {
+			$panelsArea.append('<div class="row">\n</div>');
+		}
+		$panelArea = $panelsArea.find('.row').last();
+		$panelArea.append($('.panel-template').html());
+		
+		drawList($panelArea.find('.panel:last'), fileName);
+	}
+	
+	// パネル内容を描画する
+	var drawList = function($panel, fileName) {
+		var stream = fso.OpenTextFile(fileName);
+		$panel.find('.panel-title').text(fso.getFileName(fileName));
+		while ( ! stream.AtEndOfStream) {
+			var line = stream.ReadLine();
+			$panel.find('.panel-body > .list-group')
+				.append($('<li class="list-group-item"></li>').html(line));
+		} 
+	}
+	
+	// すべてのパネルからテキスト配列を取得する
+	var getTexts = function() {
+		var texts = {}
+		$('.panels-area .panel').each(function() {
+			var fileName = $(this).find('.panel-title').text();
+			var items = [];
+			$(this).find('.panel-body li').each(function(){
+				items.push(this.innerHTML);
+			});
+			texts[fileName] = items;
+		});
+		return texts;
+	}
+	
+	// 現状の内容を保存する
+	var saveTexts = function() {
+		var texts = getTexts();
+		$.each(texts, function(fileName, items) {
+			var fullFileName   = currentDir + '\\' + fileName;
+			var backupFileName = currentDir + '\\' + fileName + '.bak';
+			fso.CopyFile(fullFileName, backupFileName);
+			var stream = fso.OpenTextFile(fullFileName, 2);
+			items.forEach(function(item){
+				stream.WriteLine(item);
+			});
+			stream.close();
+			fso.DeleteFile(backupFileName);
+		});
+		alert('保存が完了しました。');
+	}
+	
+	init();
+});
+</script>
+</body>
+</html>

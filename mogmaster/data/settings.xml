@@ -1,0 +1,8 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <display_error>false</display_error>
+        <export_extdata>true</export_extdata>
+        <loop_wait>0.1</loop_wait>
+    </global>
+</settings>
