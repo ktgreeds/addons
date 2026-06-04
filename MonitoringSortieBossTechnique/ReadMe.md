@@ -1,0 +1,3 @@
+# MonitoringSortieBossTechnique
+
+ソーティボスの技を監視するアドオン
