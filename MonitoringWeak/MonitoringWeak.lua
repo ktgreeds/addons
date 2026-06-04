@@ -11,9 +11,9 @@ windower.register_event("incoming text", function(original, modified, original_m
         if windower.wc_match(original, windower.to_shift_jis('*魔法回避率ダウン*')) then
             windower.add_to_chat(167,windower.to_shift_jis('★★★ フラズル切れ'))
 
-        elseif windower.wc_match(original, windower.to_shift_jis('*バインド*')) then
-            windower.add_to_chat(167,windower.to_shift_jis('★★★ バインド切れ'))
-            
+        --elseif windower.wc_match(original, windower.to_shift_jis('*バインド*')) then
+        --    windower.add_to_chat(167,windower.to_shift_jis('★★★ バインド切れ'))
+
         end
     end
 end)
