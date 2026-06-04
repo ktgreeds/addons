@@ -1,4 +1,4 @@
-_addon.name = 'WeakMonitoring'
+_addon.name = 'MonitoringWeak'
 _addon.author = 'ktgreeds'
 _addon.version = '1.0'
 
