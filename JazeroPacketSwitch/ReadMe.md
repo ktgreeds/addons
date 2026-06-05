@@ -1,0 +1,3 @@
+# JazeroPacketSwitch
+
+JazeroとPacketSwitchのロード状況をスイッチ形式で切り替えるアドオン
