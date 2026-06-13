@@ -1,6 +1,7 @@
 _addon.name = 'JazeroPacketSwitch'
 _addon.author = 'ktgreeds'
 _addon.version = '1.0'
+_addon.commands = {'sw','JazeroPacketSwitch'}
 
 local switch = true
 
